@@ -1,0 +1,103 @@
+
+body{
+    display:block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes animate {
+    0%{background-color: red; border-radius: 0%;}
+    10%{background-color: yellow; border-radius: 10%;}
+    20%{background-color:orange; border-radius: 20%;}
+    30%{background-color:green; border-radius: 30%;}
+    40%{background-color:blue; border-radius: 40%;}
+    50%{background-color:blueviolet; border-radius: 50%;}
+    60%{background-color: blue; border-radius: 40%;}
+    70%{background-color:green; border-radius: 30%;}
+    80%{background-color: orange; border-radius: 20%;}
+    90%{background-color: yellow; border-radius: 10%;}
+    100%{background-color: red; border-radius: 0%;}
+}
+
+.container
+{
+    position: relative;
+    background-image:url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_960_720.jpg);
+    background-size:cover ;
+    height: 48rem;
+    width: 100%;
+    display: block;
+    left:0px;
+    background-repeat: no-repeat;
+}
+.heder
+{
+    height: 60px;
+    width:100%;
+    background-color:#e0a607;
+    
+    padding-top: 50px;
+    font-size: 40px;
+    color:rgb(245, 11, 11);
+    font-weight: 800;
+    text-shadow: #00fdfd;
+    
+}
+.btn{
+    position:absolute;
+    top:45px;
+    left:43%;
+}
+button{
+     color:black;
+     font-weight: bold;
+     font-size: large;
+     background-color:rgba(204, 167, 65, 0.884);
+     height:50px;
+     width:240px;
+     border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(240, 236, 18);
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+.table
+{
+    width:800px;
+}
+table{
+    color:rgb(8, 8, 8);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+
+.face_image:hover{
+    transform: scale(120%);
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+.face_name:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.face_mail:hover{
+    background-color: rgb(7, 56, 75);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#heading{
+    position:absolute;
+    top:5px;
+    left:42%;
+}
